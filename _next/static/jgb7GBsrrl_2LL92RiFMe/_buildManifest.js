@@ -1,19 +1,23 @@
 self.__BUILD_MANIFEST = {
   "/": [
-    "static/chunks/3b9ff12e61e11fde.js"
+    "static/chunks/010734013c0556f5.js"
   ],
   "/_error": [
-    "static/chunks/b27e35cfc87bc874.js"
+    "static/chunks/5ad2b210ca700639.js"
   ],
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/next//_next/:path+",
+        "destination": "/next/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
     "/",
     "/_app",
-    "/_error",
-    "/api/hello"
+    "/_error"
   ]
 };self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
